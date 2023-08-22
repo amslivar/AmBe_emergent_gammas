@@ -16,7 +16,7 @@ source /usr/local/geant4.10.04.p02/share/Geant4-10.4.2/geant4make/geant4make.sh
 "cmake -DGeant4_DIR=/usr/local/geant4.10.04.p02/lib64/Geant4-10.4.2/ ."
 
 4. Compile with "make" (it will create an executable named "capsule_emissionV2")
-5. Prepare an HEPEvt format generator file for AmBe gamma spectrum which will be read by capsule_emissionV2: 
+5. Prepare an HEPEvt format generator file for AmBe gamma spectrum (from "am241be.spectrum") which will be read by capsule_emissionV2: 
     - make an executable of am241be.cc, e.g. run "g++ am241be.cc -o am241be.exe" 
     - run the executable with the number of events to be generated and the output file name "generator.data", e.g. "./am241be.exe 10000000 > generator.data"
 6. The simulations can be executed by running "./capsule_emissionV2 AmBe.mac"
