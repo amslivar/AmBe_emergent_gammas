@@ -6,8 +6,12 @@ Prerequisite: Geant 4.10.04.p02 and ROOT 5.34/07 (later versions are ok)
 
 Author: Mariia Fedkevych, mariia.fedkevych@gmail.com
 
-1. Download and unpack the AmBe_emergent_gammas.tar.gz archive, e.g. run "tar -xf AmBe_emergent_gammas.tar.gz" in Linux terminal
-2. Source setup scripts for Geant4, e.g.
+1. Download and unpack the AmBe_emergent_gammas.tar.gz archive, e.g. run
+   ```bash
+   "tar -xf AmBe_emergent_gammas.tar.gz"
+   ```
+   in Linux terminal
+4. Source setup scripts for Geant4, e.g.
    
 ```bash
 source /usr/local/geant4.10.04.p02/bin/geant4.sh
